@@ -4,8 +4,13 @@
           margin-right: 50px;
           margin-left: 40px;
           background-image: url("https://ih0.redbubble.net/image.285448700.8504/mp,550x550,matte,ffffff,t.3.jpg");
-          color: red;
+          color: aqua;
+          background-size:100px 100px;
        } 
+
+       a {
+           color: red;
+       }
 
       h1 {
       text-decoration: underline;
@@ -26,84 +31,9 @@
        }
 
        img {
-      border-style: solid;
-      border-color: red;
+      border-style: inset inset outset outset;
+      border-color: greenyellow;
       border-width: thick;
       width: 600px;
       height: 400px;
-       }
-
-       .blue  {
-        background-color: blue;
-        visibility: visible;
-        height: 200px;
-        width: 100px;
-        float: left;
-       }
-
-       .yellow {
-        background-color: yellow;
-        visibility: visible;
-        height: 200px;
-        width: 100px;
-        float: left;
-       }
-
-       .green {
-        background-color: green;
-        visibility: visible;
-        height: 200px;
-        width: 100px;
-        float: left;
-       }
-
-       .red {
-        background-color: red;
-        visibility: visible;
-        height: 200px;
-        width: 100px;
-        float: left;
-        clear: left; 
-
-       }
-
-       .purple {
-        background-color: purple;
-        visibility: visible;
-        height: 200px;
-        width: 100px;
-        float: left;
-       }
-
-       .pink {
-        background-color: pink;
-        visibility: visible;
-        height: 200px;
-        width: 100px;
-        float: left; 
-       }
-
-       .orange {
-        background-color: orange;
-        visibility: visible;
-        height: 200px;
-        width: 100px;
-        float: left;
-        clear: left; 
-       }
-
-       .grey {
-        background-color: grey;
-        visibility: visible;
-        height: 200px;
-        width: 100px;
-        float: left;
-       }
-
-       .black {
-        background-color: black;
-        visibility: visible;
-        height: 200px;
-        width: 100px;
-        float: left;
        }
