@@ -13,7 +13,7 @@
        }
 
       h1 {
-      text-decoration: underline;
+      text-decoration: underline overline line-through;
       font-family: fantasy;
       text-align: center;
        }
@@ -31,9 +31,13 @@
        }
 
        img {
-      border-style: inset inset outset outset;
+      border-style: outset outset inset inset;
       border-color: greenyellow;
-      border-width: thick;
+      border-width: 25px;
       width: 600px;
       height: 400px;
+       }
+       
+       .miss {
+        color: red;
        }
