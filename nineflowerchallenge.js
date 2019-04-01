@@ -5,7 +5,7 @@ let draw = SVG('drawing').size(1600, 1600);
 
 
 var linear1 = draw.gradient('linear', function(stop) {
-    stop.at(0, 'maroon')
+    stop.at(0, 'magenta')
     stop.at(1, '#0f9')
   })
   var linear2 = draw.gradient('linear', function(stop) {
