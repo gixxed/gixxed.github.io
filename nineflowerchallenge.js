@@ -38,7 +38,7 @@ var linear1 = draw.gradient('linear', function(stop) {
   })
 
 
-function drawlol(x,y) {
+function drawthisstuffplease(x,y) {
     let ellipse2 = draw.ellipse(10, 20).fill('limegreen').move(x+70, y+9).fill(linear1);
     let ellipse = draw.ellipse(10, 20).fill('limegreen').move(x+80, y+12).fill(linear2).transform({ rotation: 45 })
     let leef = draw.ellipse(10, 20).fill('limegreen').move(x+82.5, y+20).fill(linear3).transform({ rotation: 90});
@@ -51,12 +51,12 @@ function drawlol(x,y) {
     let ciricle = draw.circle(10, 10).fill('yellow').move(x+71, y+23.5);
 }
 
-drawlol(100,100);
-drawlol(800,300);
-drawlol(200,700);
-drawlol(400,200);
-drawlol(500,500);
-drawlol(1000,600);
-drawlol(1200,200);
-drawlol(50,400);
-drawlol(700,100);
+drawthisstuffplease(100,100);
+drawthisstuffplease(800,300);
+drawthisstuffplease(200,700);
+drawthisstuffplease(400,200);
+drawthisstuffplease(500,500);
+drawthisstuffplease(1000,600);
+drawthisstuffplease(1200,200);
+drawthisstuffplease(50,400);
+drawthisstuffplease(700,100);
